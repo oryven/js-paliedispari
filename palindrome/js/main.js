@@ -11,6 +11,7 @@
 
 let parola = prompt("scrivi una parola");
 
+
 if (controlloPalindroma(parola) == parola){
     console.log("la tua parola è palindrma");
 }else {
@@ -22,7 +23,7 @@ function controlloPalindroma(parolaInserita){
     let parolaInvertita = "";
 
     for (let i = parolaInserita.length - 1; i >= 0; i--) {
-        parolaInvertita += parolaInserita[i];
+        parolaInvertita += parolaInserita[i]; 
         console.log(parolaInvertita);
     }
 
